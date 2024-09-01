@@ -1,18 +1,13 @@
 import base64
 import socket
-import zipfile
 import threading
 import ipaddress
 import time
 from struct import pack
 import sys
 import os    
-import tkinter as tk
-from tkinter import filedialog
 import subprocess
 import ctypes
-import shutil
-from tkinter import messagebox
 
 TIMEOUT = 0.05
 PORT_TO_CHECK = 445
